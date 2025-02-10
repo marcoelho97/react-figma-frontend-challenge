@@ -1,0 +1,23 @@
+.card {
+  background-color: #ffffff;
+  overflow: hidden;
+  color: #171c35;
+
+  .card-title {
+    line-height: 130%;
+    font-size: 20px;
+  }
+
+  .card-image {
+    background-image: var(--bg-image);
+    background-position: center center;
+    background-size: cover;
+    border-top-right-radius: 33% 50%;
+    border-bottom-right-radius: 33% 50%;
+  }
+
+  .card-badge {
+    font-size: 12px;
+    letter-spacing: 0.4px;
+  }
+}

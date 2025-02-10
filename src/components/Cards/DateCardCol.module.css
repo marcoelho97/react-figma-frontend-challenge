@@ -1,0 +1,82 @@
+.card {
+  background-color: #ffffff;
+  overflow: hidden;
+  color: #171c35;
+
+  .card-title {
+    line-height: 120%;
+    font-size: 16px;
+    letter-spacing: 0.15px;
+  }
+
+  &.event-card {
+    .side-date {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      color: #3346aa;
+      background-color: #f7f7f7;
+
+      border-top-right-radius: 33% 50%;
+      border-bottom-right-radius: 33% 50%;
+
+      .day {
+        line-height: 100%;
+        font-size: 50px;
+        letter-spacing: -0.5px;
+        font-weight: 300;
+      }
+      .month {
+        line-height: 120%;
+        font-size: 35px;
+        letter-spacing: 1px;
+        font-weight: 300;
+        text-transform: uppercase;
+      }
+    }
+
+    .event-organizer {
+      margin-top: 9px;
+      img {
+        width: 24px;
+        vertical-align: middle;
+        margin-right: 5px;
+      }
+      span {
+        vertical-align: middle;
+        font-size: 12px;
+        letter-spacing: 0.4px;
+      }
+    }
+
+    .event-details {
+      img,
+      span {
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      span {
+        font-size: 12px;
+        letter-spacing: 0.4px;
+      }
+
+      > :first-child {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .card-badge {
+    font-size: 12px;
+    letter-spacing: 0.4px;
+  }
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
