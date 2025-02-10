@@ -1,0 +1,45 @@
+.card {
+  background-color: #ffffff;
+  overflow: hidden;
+  color: #171c35;
+
+  box-shadow: 0 4px 21px rgba(0, 0, 0, 0.07);
+
+  > * {
+    height: 160px;
+  }
+
+  .card-title {
+    line-height: 130%;
+    font-size: 20px;
+  }
+
+  .card-image {
+    background-image: var(--bg-image);
+    background-position: center center;
+    background-size: cover;
+    border-top-right-radius: 33% 50%;
+    border-bottom-right-radius: 33% 50%;
+  }
+
+  .opinion-author {
+    margin-top: 9px;
+    img {
+      width: 24px;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+    span {
+      vertical-align: middle;
+      font-size: 12px;
+      letter-spacing: 0.4px;
+    }
+  }
+
+  .footer {
+    .card-badge {
+      font-size: 12px;
+      letter-spacing: 0.4px;
+    }
+  }
+}
