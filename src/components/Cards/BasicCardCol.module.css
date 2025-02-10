@@ -1,0 +1,19 @@
+.card {
+  background-color: #ffffff;
+  overflow: hidden;
+  line-height: 120%;
+  color: #171c35;
+
+  .card-title {
+    font-size: 16px;
+    letter-spacing: 0.15px;
+  }
+  .card-subtitle {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+  }
+  .card-badge {
+    font-size: 12px;
+    letter-spacing: 0.4px;
+  }
+}
