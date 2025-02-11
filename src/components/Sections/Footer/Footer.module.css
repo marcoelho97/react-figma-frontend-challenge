@@ -1,0 +1,47 @@
+.section {
+  padding-top: 49px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 35px;
+  background-color: #ffffff;
+  color: #171c35;
+  margin-top: 40px;
+
+  .navigation {
+    img {
+      width: 200px;
+    }
+    a {
+      text-decoration: none;
+      line-height: 140%;
+      letter-spacing: 0.5px;
+      font-size: 16px;
+      color: #171c35;
+    }
+  }
+
+  .extras {
+    * {
+      vertical-align: middle;
+    }
+    img {
+      width: 200px;
+    }
+    .disclaimers {
+      line-height: 120%;
+      letter-spacing: 0.4px;
+      font-size: 12px;
+      a {
+        text-decoration: none;
+        color: #171c35;
+      }
+    }
+    .newsletter a {
+      text-decoration: none;
+      line-height: 140%;
+      letter-spacing: 0.5px;
+      font-size: 16px;
+      color: #171c35;
+    }
+  }
+}
