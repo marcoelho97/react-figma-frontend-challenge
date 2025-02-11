@@ -68,6 +68,9 @@
       font-size: 12px;
       font-weight: 500;
       text-transform: uppercase;
+      margin-bottom: 1rem;
+      color: white;
+      text-decoration: none;
       span {
         margin-right: 16px;
       }
