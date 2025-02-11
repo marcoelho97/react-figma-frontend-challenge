@@ -1,5 +1,5 @@
-import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
 import Slider from "react-slick";
 import ImageOpinionCardCol from "../../Cards/ImageOpinionCardCol";
 import OpinionArticlesCSS from "./OpinionArticles.module.css";
