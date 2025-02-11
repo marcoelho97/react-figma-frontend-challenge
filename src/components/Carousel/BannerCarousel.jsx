@@ -32,10 +32,10 @@ const BannerCarousel = () => {
               Consequat egestas volutpat mattis suscipit. At semper urna tortor
               sed purus proin volutpat. Neque nisl quis nulla etiam.
             </p>
-            <p className={bannerCarouselCSS["read-more"]}>
+            <a href="#" className={bannerCarouselCSS["read-more"]}>
               <span>Read more</span>
               <img src={arrowIcon} alt="Arrow icon pointing right" />
-            </p>
+            </a>
           </Carousel.Caption>
         </Carousel.Item>
       ))}

@@ -5,7 +5,15 @@ import locationIcon from "/src/assets/icons/gps.svg";
 
 import dateCardColCSS from "./DateCardCol.module.css";
 
-const DateCardCol = ({ title, eventOrganizer, dates, location, xs }) => {
+const DateCardCol = ({
+  title,
+  eventOrganizer,
+  dates,
+  location,
+  xs,
+  biggerCard = false,
+  keepShadow = false,
+}) => {
   const initialDateMonth = dates.initialDate.toLocaleString("en-US", {
     month: "short",
   });
@@ -13,7 +21,11 @@ const DateCardCol = ({ title, eventOrganizer, dates, location, xs }) => {
   return (
     <Col
       xs={xs}
-      className={`${dateCardColCSS.card} ${dateCardColCSS["event-card"]} rounded-3`}
+      className={`${dateCardColCSS.card} ${
+        dateCardColCSS["event-card"]
+      } rounded-3 ${biggerCard && dateCardColCSS["bigger-card"]} ${
+        keepShadow && dateCardColCSS.boxShadow
+      }`}
     >
       <Row className="h-100">
         <Col xs="3" className={dateCardColCSS["side-date"]}>

@@ -1,6 +1,7 @@
-import { Container, Row } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
 import Slider from "react-slick";
-import ImageOpinionCardCol from "../Cards/ImageOpinionCardCol";
+import ImageOpinionCardCol from "../../Cards/ImageOpinionCardCol";
 import OpinionArticlesCSS from "./OpinionArticles.module.css";
 
 import "slick-carousel/slick/slick-theme.css";

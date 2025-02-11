@@ -3,6 +3,10 @@
   overflow: hidden;
   color: #171c35;
 
+  &.boxShadow {
+    box-shadow: 0 4px 21px rgba(0, 0, 0, 0.07);
+  }
+
   .card-title {
     line-height: 120%;
     font-size: 16px;
@@ -72,6 +76,28 @@
   .card-badge {
     font-size: 12px;
     letter-spacing: 0.4px;
+  }
+
+  &.bigger-card {
+    height: 160px;
+
+    &.event-card {
+      .side-date {
+        .day {
+          font-size: 61px;
+        }
+        .month {
+          line-height: 120%;
+          font-size: 35px;
+          letter-spacing: 0.25px;
+          font-weight: 400;
+          text-transform: uppercase;
+        }
+      }
+    }
+    .card-title {
+      font-size: 20px;
+    }
   }
 }
 
